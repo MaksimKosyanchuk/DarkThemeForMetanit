@@ -1,0 +1,28 @@
+{
+    "name": "Dark Theme for metanit",
+    "deskription": "Dark theme for metanit.com",
+    "version": "1.0",
+    "permissions": [
+        "activeTab",
+        "storage",
+        "https://metanit.com/*"
+    ],
+    "background": {
+            "scripts": ["background.js"],
+            "persistent": false
+    },
+    "content": {
+        "scripts": [
+            "content.js"
+        ],
+        "persistent": false
+    },
+    "content_scripts":
+    [
+        {
+            "matches": ["https://metanit.com/*"],
+            "css": ["myStyles.css"]
+        }
+    ],
+    "manifest_version": 2
+}

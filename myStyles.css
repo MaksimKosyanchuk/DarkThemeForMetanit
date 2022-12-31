@@ -1,0 +1,81 @@
+
+body{
+    --body-text-color: #b4b4b4;
+    --mentA-text-color: #b4b4b4;
+    --h-text-color: #cecece;
+    --a-text-color: #775aaf;
+    --a-text-color: #775aaf;
+    --container-bg-color: #242424;
+    --container-text-color:#b4b4b4;
+    --menc-bg-color: #242424;   
+    --bottom-color: #b4b4b4;
+    --logo-color: #cecece;
+    --menu-bg-color: #2e2e2e;
+    --menu-second-bg-color: #2e2e2e;
+    --menu-text-color: #ededed;
+    --menu-text-shadow-width: 0px;
+    --logo-hover-color: #9c77e2;
+    --socbtn-color: #cecece;
+    --fa-hover-color: #fff;
+
+    --code-bgcolor: #555;
+    --code-keyword: #679fbc;
+    --code-plain: #ededed;
+    --code-comment: #81C784;
+    --code-string: #ef9b8e;
+    --tree-selcolor: #d086e4;
+    --tree-selbgcolor: #242424;
+    
+}
+#footer {
+    border-top: 1px solid #404040 !important;
+}
+.item.left {
+    border-right: solid #404040 1px !important;
+}
+.item.right {
+    border-left: solid #404040 1px !important;
+}
+.help-header {
+    background: #373737 !important;
+}
+#menu .mainmenu li> a {
+    border-left: 1px solid #404040 !important;
+    border-right: 1px solid #404040 !important;
+}
+#menu .mainmenu li> a {    
+    box-shadow: #404040 !important;
+}
+#cse-search-box input[type="text"] {
+    border-radius: 4px !important; 
+    background-color: rgb(59,59,59) !important;
+    text-emphasis-color: #999999 !important;
+    
+}
+#cse-search-box input[type="submit"] {
+    border-radius: 4px !important;
+    background-color: #a3a3a3 !important;
+}
+a:hover{
+    color: #9f86cf !important;
+}
+.navmenu a {
+    border-bottom: 1px solid #404040 !important;
+}
+.help-item-req {
+    border-top: #404040 1px solid !important;
+}
+.centerRight h2, .centerLeft h2 {
+    border-bottom: 1px solid #585858 !important;
+}
+.menC .nav a:hover {
+    color: #9c77e2 !important;
+    background: #242424 !important;
+}
+.filetree li > .folder.aMItem {
+    background-color: var(--tree-selbgcolor);
+    color: var(--tree-selcolor);
+}
+a.aMItem {
+    color: #9f86cf !important;
+}

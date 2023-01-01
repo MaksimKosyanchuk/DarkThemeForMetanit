@@ -1,5 +1,5 @@
 
-body{
+body{--sprite-img: url(https://metanit.com/img/sprites4.png) !important;
     --body-text-color: #b4b4b4;
     --mentA-text-color: #b4b4b4;
     --h-text-color: #cecece;
